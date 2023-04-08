@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body {
+  background: linear-gradient(rgba(0, 0, 0.5, 0.8), rgba(0, 0, 0, 0.8)), url('img/rame.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+    margin-top: 5%;
+    margin-left: 46%;
+}
+
+

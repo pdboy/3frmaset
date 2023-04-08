@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="frame-registrasi-style.css">
+</head>
+<body>
+    
+    <form action="index.html" method="post">
+  
+        <h1>Registrasi</h1>  
+        <fieldset>
+          
+          <label for="name">Nama Lengkap</label>
+          <input type="text" id="name" name="user_name" placeholder="Nama">
+          
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="user_email" placeholder="Email" >
+    
+    
+        
+            <label for="jeniskelamin">Jenis Kelamin</label>
+            <select id="jeniskelamin" name="Kelamin" >
+              <optgroup label="Jenis Kelamin">
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+                <option value="Lainnya">Lainnya</option>
+              </optgroup>
+            </select>
+           
+          <label for="tanggallahir"> Tanggal Lahir </label>
+              <input type="date" id="Tanggallahir" name="tanggallahir" required >
+             
+          <label for="alamt">Alamat Lengkap</label>
+          <textarea id="alamt lengkap" name="alamat lengkap" placeholder="Alamat Lengkap"></textarea>
+           
+          <label for="notelpon">No Telpon</label>
+          <input type="text" id="notelpon" name="notelpon" placeholder="Nomor Telpon">   
+          
+          <label for="name">Pekerjaan</label>
+          <input type="text" id="pekerjaan" name="pekerjaan" placeholder="Pekerjaan">
+    
+          <label for="images" class="drop-container">
+            <span class="drop-title">Drop photo here</span>
+            or
+            <input type="file" id="images" accept="image/*" required>
+          </label>
+          </fieldset>
+          
+        <button type="submit">Registrasi</button>
+    
+      </form>
+
+</body>
+</html>
